@@ -1,0 +1,4 @@
+django-environ==0.12.0
+djangorestframework==3.16.1
+django-filter      # For DRF filtering support
+djangorestframework-simplejwt[crypto]==5.5.1

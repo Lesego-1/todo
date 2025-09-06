@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    image: todo-image
+    container_name: todo-container
+    ports:
+      - "8001:8000"
+    volumes:
+      - ".:/app"
+    env_file:
+      - .env
